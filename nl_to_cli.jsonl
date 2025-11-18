@@ -1,0 +1,1000 @@
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "disable Ethernet25", "action": {"type": "disable_interface", "params": {"interface": "Ethernet25"}}, "output": {"cmd": ["interface Ethernet25", "shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "disable Ethernet15", "action": {"type": "disable_interface", "params": {"interface": "Ethernet15"}}, "output": {"cmd": ["interface Ethernet15", "shutdown"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "can you ping 139.102.159.103?", "action": {"type": "ping_ip", "params": {"ip": "139.102.159.103"}}, "output": {"cmd": ["ping 139.102.159.103"]}}
+{"input": "assign Ethernet46 to vlan 162", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet46", "vlan": "162"}}, "output": {"cmd": ["interface Ethernet46", "switchport access vlan 162"]}}
+{"input": "set description on Ethernet34 to \"camera\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet34", "description": "camera"}}, "output": {"cmd": ["interface Ethernet34", "description camera"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set description on Ethernet29 to \"lab device\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet29", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet29", "description lab device"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "check connectivity to 179.237.25.143", "action": {"type": "ping_ip", "params": {"ip": "179.237.25.143"}}, "output": {"cmd": ["ping 179.237.25.143"]}}
+{"input": "please shutdown Ethernet28", "action": {"type": "disable_interface", "params": {"interface": "Ethernet28"}}, "output": {"cmd": ["interface Ethernet28", "shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add vlan 1072", "action": {"type": "create_vlan", "params": {"vlan": "1072"}}, "output": {"cmd": ["vlan 1072"]}}
+{"input": "send an icmp to 166.153.234.81", "action": {"type": "ping_ip", "params": {"ip": "166.153.234.81"}}, "output": {"cmd": ["ping 166.153.234.81"]}}
+{"input": "set description on Ethernet42 to \"office workstation\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet42", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet42", "description office workstation"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "put Ethernet45 in vlan 1852", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet45", "vlan": "1852"}}, "output": {"cmd": ["interface Ethernet45", "switchport access vlan 1852"]}}
+{"input": "ping 61.83.90.226", "action": {"type": "ping_ip", "params": {"ip": "61.83.90.226"}}, "output": {"cmd": ["ping 61.83.90.226"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "set Ethernet34 description office workstation", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet34", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet34", "description office workstation"]}}
+{"input": "set description on Ethernet7 to \"monitoring\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet7", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet7", "description monitoring"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set access vlan 992 on Ethernet33", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet33", "vlan": "992"}}, "output": {"cmd": ["interface Ethernet33", "switchport access vlan 992"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "turn off Ethernet39", "action": {"type": "disable_interface", "params": {"interface": "Ethernet39"}}, "output": {"cmd": ["interface Ethernet39", "shutdown"]}}
+{"input": "bring up Ethernet44", "action": {"type": "enable_interface", "params": {"interface": "Ethernet44"}}, "output": {"cmd": ["interface Ethernet44", "no shutdown"]}}
+{"input": "set description on Ethernet1 to \"uplink to core\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet1", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet1", "description uplink to core"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "shut down Ethernet16", "action": {"type": "disable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "shutdown"]}}
+{"input": "i need Ethernet39 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet39"}}, "output": {"cmd": ["interface Ethernet39", "no shutdown"]}}
+{"input": "label Ethernet25 as office workstation", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet25", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet25", "description office workstation"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add a description 'camera' to Ethernet2", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet2", "description": "camera"}}, "output": {"cmd": ["interface Ethernet2", "description camera"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "make Ethernet8 access vlan 1982", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet8", "vlan": "1982"}}, "output": {"cmd": ["interface Ethernet8", "switchport access vlan 1982"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set description on Ethernet41 to \"lab device\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet41", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet41", "description lab device"]}}
+{"input": "ping 58.58.236.243", "action": {"type": "ping_ip", "params": {"ip": "58.58.236.243"}}, "output": {"cmd": ["ping 58.58.236.243"]}}
+{"input": "can you no shutdown Ethernet16?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "no shutdown"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "can you no shutdown Ethernet27?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet27"}}, "output": {"cmd": ["interface Ethernet27", "no shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "bring up vlan 142", "action": {"type": "create_vlan", "params": {"vlan": "142"}}, "output": {"cmd": ["vlan 142"]}}
+{"input": "i want a vlan 1962 created", "action": {"type": "create_vlan", "params": {"vlan": "1962"}}, "output": {"cmd": ["vlan 1962"]}}
+{"input": "send an icmp to 84.28.117.211", "action": {"type": "ping_ip", "params": {"ip": "84.28.117.211"}}, "output": {"cmd": ["ping 84.28.117.211"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "please shutdown Ethernet32", "action": {"type": "disable_interface", "params": {"interface": "Ethernet32"}}, "output": {"cmd": ["interface Ethernet32", "shutdown"]}}
+{"input": "check connectivity to 25.49.220.91", "action": {"type": "ping_ip", "params": {"ip": "25.49.220.91"}}, "output": {"cmd": ["ping 25.49.220.91"]}}
+{"input": "label Ethernet16 as uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet16", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet16", "description uplink to core"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add vlan 82", "action": {"type": "create_vlan", "params": {"vlan": "82"}}, "output": {"cmd": ["vlan 82"]}}
+{"input": "ping 118.63.193.21", "action": {"type": "ping_ip", "params": {"ip": "118.63.193.21"}}, "output": {"cmd": ["ping 118.63.193.21"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "disable Ethernet25", "action": {"type": "disable_interface", "params": {"interface": "Ethernet25"}}, "output": {"cmd": ["interface Ethernet25", "shutdown"]}}
+{"input": "set description on Ethernet10 to \"office workstation\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet10", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet10", "description office workstation"]}}
+{"input": "add vlan 1222", "action": {"type": "create_vlan", "params": {"vlan": "1222"}}, "output": {"cmd": ["vlan 1222"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet24 access vlan 1002", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet24", "vlan": "1002"}}, "output": {"cmd": ["interface Ethernet24", "switchport access vlan 1002"]}}
+{"input": "put Ethernet7 in vlan 1882", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet7", "vlan": "1882"}}, "output": {"cmd": ["interface Ethernet7", "switchport access vlan 1882"]}}
+{"input": "add vlan 1572", "action": {"type": "create_vlan", "params": {"vlan": "1572"}}, "output": {"cmd": ["vlan 1572"]}}
+{"input": "label Ethernet22 as office workstation", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet22", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet22", "description office workstation"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "bring up Ethernet4", "action": {"type": "enable_interface", "params": {"interface": "Ethernet4"}}, "output": {"cmd": ["interface Ethernet4", "no shutdown"]}}
+{"input": "make Ethernet19 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet19"}}, "output": {"cmd": ["interface Ethernet19", "shutdown"]}}
+{"input": "label Ethernet45 as server connection", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet45", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet45", "description server connection"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set Ethernet21 description server connection", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet21", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet21", "description server connection"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add vlan 962", "action": {"type": "create_vlan", "params": {"vlan": "962"}}, "output": {"cmd": ["vlan 962"]}}
+{"input": "send an icmp to 223.251.52.224", "action": {"type": "ping_ip", "params": {"ip": "223.251.52.224"}}, "output": {"cmd": ["ping 223.251.52.224"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet15 access vlan 542", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet15", "vlan": "542"}}, "output": {"cmd": ["interface Ethernet15", "switchport access vlan 542"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "put Ethernet29 in vlan 1582", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet29", "vlan": "1582"}}, "output": {"cmd": ["interface Ethernet29", "switchport access vlan 1582"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "can you no shutdown Ethernet7?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet7"}}, "output": {"cmd": ["interface Ethernet7", "no shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn off Ethernet22", "action": {"type": "disable_interface", "params": {"interface": "Ethernet22"}}, "output": {"cmd": ["interface Ethernet22", "shutdown"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "turn on Ethernet15", "action": {"type": "enable_interface", "params": {"interface": "Ethernet15"}}, "output": {"cmd": ["interface Ethernet15", "no shutdown"]}}
+{"input": "bring up vlan 1162", "action": {"type": "create_vlan", "params": {"vlan": "1162"}}, "output": {"cmd": ["vlan 1162"]}}
+{"input": "set access vlan 202 on Ethernet26", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet26", "vlan": "202"}}, "output": {"cmd": ["interface Ethernet26", "switchport access vlan 202"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "check connectivity to 151.117.112.2", "action": {"type": "ping_ip", "params": {"ip": "151.117.112.2"}}, "output": {"cmd": ["ping 151.117.112.2"]}}
+{"input": "can you no shutdown Ethernet28?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet28"}}, "output": {"cmd": ["interface Ethernet28", "no shutdown"]}}
+{"input": "make Ethernet10 access vlan 162", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet10", "vlan": "162"}}, "output": {"cmd": ["interface Ethernet10", "switchport access vlan 162"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn on Ethernet20", "action": {"type": "enable_interface", "params": {"interface": "Ethernet20"}}, "output": {"cmd": ["interface Ethernet20", "no shutdown"]}}
+{"input": "i want a vlan 1052 created", "action": {"type": "create_vlan", "params": {"vlan": "1052"}}, "output": {"cmd": ["vlan 1052"]}}
+{"input": "i need Ethernet22 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet22"}}, "output": {"cmd": ["interface Ethernet22", "no shutdown"]}}
+{"input": "please make vlan 1662", "action": {"type": "create_vlan", "params": {"vlan": "1662"}}, "output": {"cmd": ["vlan 1662"]}}
+{"input": "create vlan 1432", "action": {"type": "create_vlan", "params": {"vlan": "1432"}}, "output": {"cmd": ["vlan 1432"]}}
+{"input": "put Ethernet32 in vlan 472", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet32", "vlan": "472"}}, "output": {"cmd": ["interface Ethernet32", "switchport access vlan 472"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "put Ethernet30 in vlan 1582", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet30", "vlan": "1582"}}, "output": {"cmd": ["interface Ethernet30", "switchport access vlan 1582"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "create vlan 1912", "action": {"type": "create_vlan", "params": {"vlan": "1912"}}, "output": {"cmd": ["vlan 1912"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "bring up vlan 1392", "action": {"type": "create_vlan", "params": {"vlan": "1392"}}, "output": {"cmd": ["vlan 1392"]}}
+{"input": "send an icmp to 221.243.230.67", "action": {"type": "ping_ip", "params": {"ip": "221.243.230.67"}}, "output": {"cmd": ["ping 221.243.230.67"]}}
+{"input": "i need Ethernet4 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet4"}}, "output": {"cmd": ["interface Ethernet4", "no shutdown"]}}
+{"input": "assign Ethernet44 to vlan 1382", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet44", "vlan": "1382"}}, "output": {"cmd": ["interface Ethernet44", "switchport access vlan 1382"]}}
+{"input": "turn off Ethernet46", "action": {"type": "disable_interface", "params": {"interface": "Ethernet46"}}, "output": {"cmd": ["interface Ethernet46", "shutdown"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set description on Ethernet5 to \"camera\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet5", "description": "camera"}}, "output": {"cmd": ["interface Ethernet5", "description camera"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set description on Ethernet6 to \"monitoring\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet6", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet6", "description monitoring"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "assign Ethernet44 to vlan 342", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet44", "vlan": "342"}}, "output": {"cmd": ["interface Ethernet44", "switchport access vlan 342"]}}
+{"input": "set Ethernet47 description lab device", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet47", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet47", "description lab device"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set description on Ethernet18 to \"guest network\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet18", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet18", "description guest network"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "enable Ethernet10", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "ping 9.118.147.181", "action": {"type": "ping_ip", "params": {"ip": "9.118.147.181"}}, "output": {"cmd": ["ping 9.118.147.181"]}}
+{"input": "ping 175.123.254.234", "action": {"type": "ping_ip", "params": {"ip": "175.123.254.234"}}, "output": {"cmd": ["ping 175.123.254.234"]}}
+{"input": "can you ping 145.21.177.137?", "action": {"type": "ping_ip", "params": {"ip": "145.21.177.137"}}, "output": {"cmd": ["ping 145.21.177.137"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add vlan 572", "action": {"type": "create_vlan", "params": {"vlan": "572"}}, "output": {"cmd": ["vlan 572"]}}
+{"input": "create vlan 922", "action": {"type": "create_vlan", "params": {"vlan": "922"}}, "output": {"cmd": ["vlan 922"]}}
+{"input": "ping 141.169.180.180", "action": {"type": "ping_ip", "params": {"ip": "141.169.180.180"}}, "output": {"cmd": ["ping 141.169.180.180"]}}
+{"input": "bring up vlan 1882", "action": {"type": "create_vlan", "params": {"vlan": "1882"}}, "output": {"cmd": ["vlan 1882"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "put Ethernet1 in vlan 1362", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet1", "vlan": "1362"}}, "output": {"cmd": ["interface Ethernet1", "switchport access vlan 1362"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "bring up Ethernet46", "action": {"type": "enable_interface", "params": {"interface": "Ethernet46"}}, "output": {"cmd": ["interface Ethernet46", "no shutdown"]}}
+{"input": "set description on Ethernet15 to \"uplink to core\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet15", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet15", "description uplink to core"]}}
+{"input": "can you ping 114.26.104.69?", "action": {"type": "ping_ip", "params": {"ip": "114.26.104.69"}}, "output": {"cmd": ["ping 114.26.104.69"]}}
+{"input": "add vlan 1002", "action": {"type": "create_vlan", "params": {"vlan": "1002"}}, "output": {"cmd": ["vlan 1002"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "enable Ethernet14", "action": {"type": "enable_interface", "params": {"interface": "Ethernet14"}}, "output": {"cmd": ["interface Ethernet14", "no shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "label Ethernet40 as camera", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet40", "description": "camera"}}, "output": {"cmd": ["interface Ethernet40", "description camera"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "shut down Ethernet17", "action": {"type": "disable_interface", "params": {"interface": "Ethernet17"}}, "output": {"cmd": ["interface Ethernet17", "shutdown"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please enable interface Ethernet42", "action": {"type": "enable_interface", "params": {"interface": "Ethernet42"}}, "output": {"cmd": ["interface Ethernet42", "no shutdown"]}}
+{"input": "enable Ethernet39", "action": {"type": "enable_interface", "params": {"interface": "Ethernet39"}}, "output": {"cmd": ["interface Ethernet39", "no shutdown"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set Ethernet25 description uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet25", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet25", "description uplink to core"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set Ethernet1 description office workstation", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet1", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet1", "description office workstation"]}}
+{"input": "i need Ethernet40 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet40"}}, "output": {"cmd": ["interface Ethernet40", "no shutdown"]}}
+{"input": "please make vlan 1972", "action": {"type": "create_vlan", "params": {"vlan": "1972"}}, "output": {"cmd": ["vlan 1972"]}}
+{"input": "create vlan 1052", "action": {"type": "create_vlan", "params": {"vlan": "1052"}}, "output": {"cmd": ["vlan 1052"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "please enable interface Ethernet26", "action": {"type": "enable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "no shutdown"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn off Ethernet7", "action": {"type": "disable_interface", "params": {"interface": "Ethernet7"}}, "output": {"cmd": ["interface Ethernet7", "shutdown"]}}
+{"input": "please make vlan 1452", "action": {"type": "create_vlan", "params": {"vlan": "1452"}}, "output": {"cmd": ["vlan 1452"]}}
+{"input": "bring up Ethernet26", "action": {"type": "enable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "no shutdown"]}}
+{"input": "turn off Ethernet17", "action": {"type": "disable_interface", "params": {"interface": "Ethernet17"}}, "output": {"cmd": ["interface Ethernet17", "shutdown"]}}
+{"input": "set Ethernet26 description lab device", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet26", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet26", "description lab device"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "create vlan 922", "action": {"type": "create_vlan", "params": {"vlan": "922"}}, "output": {"cmd": ["vlan 922"]}}
+{"input": "bring up vlan 1202", "action": {"type": "create_vlan", "params": {"vlan": "1202"}}, "output": {"cmd": ["vlan 1202"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add a description 'office workstation' to Ethernet30", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet30", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet30", "description office workstation"]}}
+{"input": "put Ethernet33 in vlan 1782", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet33", "vlan": "1782"}}, "output": {"cmd": ["interface Ethernet33", "switchport access vlan 1782"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "check connectivity to 59.148.40.219", "action": {"type": "ping_ip", "params": {"ip": "59.148.40.219"}}, "output": {"cmd": ["ping 59.148.40.219"]}}
+{"input": "check connectivity to 50.151.116.93", "action": {"type": "ping_ip", "params": {"ip": "50.151.116.93"}}, "output": {"cmd": ["ping 50.151.116.93"]}}
+{"input": "turn on Ethernet37", "action": {"type": "enable_interface", "params": {"interface": "Ethernet37"}}, "output": {"cmd": ["interface Ethernet37", "no shutdown"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "assign Ethernet9 to vlan 1612", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet9", "vlan": "1612"}}, "output": {"cmd": ["interface Ethernet9", "switchport access vlan 1612"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "ping 69.72.36.16", "action": {"type": "ping_ip", "params": {"ip": "69.72.36.16"}}, "output": {"cmd": ["ping 69.72.36.16"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "make Ethernet32 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet32"}}, "output": {"cmd": ["interface Ethernet32", "shutdown"]}}
+{"input": "set Ethernet19 description VOIP phone", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet19", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet19", "description VOIP phone"]}}
+{"input": "set Ethernet2 description uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet2", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet2", "description uplink to core"]}}
+{"input": "set access vlan 472 on Ethernet41", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet41", "vlan": "472"}}, "output": {"cmd": ["interface Ethernet41", "switchport access vlan 472"]}}
+{"input": "add vlan 622", "action": {"type": "create_vlan", "params": {"vlan": "622"}}, "output": {"cmd": ["vlan 622"]}}
+{"input": "check connectivity to 5.47.150.57", "action": {"type": "ping_ip", "params": {"ip": "5.47.150.57"}}, "output": {"cmd": ["ping 5.47.150.57"]}}
+{"input": "disable Ethernet39", "action": {"type": "disable_interface", "params": {"interface": "Ethernet39"}}, "output": {"cmd": ["interface Ethernet39", "shutdown"]}}
+{"input": "check connectivity to 2.180.152.193", "action": {"type": "ping_ip", "params": {"ip": "2.180.152.193"}}, "output": {"cmd": ["ping 2.180.152.193"]}}
+{"input": "make Ethernet8 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet8"}}, "output": {"cmd": ["interface Ethernet8", "shutdown"]}}
+{"input": "turn off Ethernet8", "action": {"type": "disable_interface", "params": {"interface": "Ethernet8"}}, "output": {"cmd": ["interface Ethernet8", "shutdown"]}}
+{"input": "enable Ethernet36", "action": {"type": "enable_interface", "params": {"interface": "Ethernet36"}}, "output": {"cmd": ["interface Ethernet36", "no shutdown"]}}
+{"input": "bring up vlan 1572", "action": {"type": "create_vlan", "params": {"vlan": "1572"}}, "output": {"cmd": ["vlan 1572"]}}
+{"input": "add a description 'monitoring' to Ethernet23", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet23", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet23", "description monitoring"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "create vlan 702", "action": {"type": "create_vlan", "params": {"vlan": "702"}}, "output": {"cmd": ["vlan 702"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "add a description 'server connection' to Ethernet4", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet4", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet4", "description server connection"]}}
+{"input": "turn on Ethernet24", "action": {"type": "enable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "no shutdown"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please shutdown Ethernet26", "action": {"type": "disable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "shutdown"]}}
+{"input": "add a description 'office workstation' to Ethernet41", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet41", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet41", "description office workstation"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "please shutdown Ethernet46", "action": {"type": "disable_interface", "params": {"interface": "Ethernet46"}}, "output": {"cmd": ["interface Ethernet46", "shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "shut down Ethernet19", "action": {"type": "disable_interface", "params": {"interface": "Ethernet19"}}, "output": {"cmd": ["interface Ethernet19", "shutdown"]}}
+{"input": "add a description 'guest network' to Ethernet18", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet18", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet18", "description guest network"]}}
+{"input": "turn off Ethernet32", "action": {"type": "disable_interface", "params": {"interface": "Ethernet32"}}, "output": {"cmd": ["interface Ethernet32", "shutdown"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "create vlan 882", "action": {"type": "create_vlan", "params": {"vlan": "882"}}, "output": {"cmd": ["vlan 882"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "can you ping 139.26.179.58?", "action": {"type": "ping_ip", "params": {"ip": "139.26.179.58"}}, "output": {"cmd": ["ping 139.26.179.58"]}}
+{"input": "make Ethernet32 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet32"}}, "output": {"cmd": ["interface Ethernet32", "shutdown"]}}
+{"input": "put Ethernet24 in vlan 832", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet24", "vlan": "832"}}, "output": {"cmd": ["interface Ethernet24", "switchport access vlan 832"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "ping 103.30.84.98", "action": {"type": "ping_ip", "params": {"ip": "103.30.84.98"}}, "output": {"cmd": ["ping 103.30.84.98"]}}
+{"input": "check connectivity to 125.246.109.222", "action": {"type": "ping_ip", "params": {"ip": "125.246.109.222"}}, "output": {"cmd": ["ping 125.246.109.222"]}}
+{"input": "create vlan 2", "action": {"type": "create_vlan", "params": {"vlan": "2"}}, "output": {"cmd": ["vlan 2"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please make vlan 622", "action": {"type": "create_vlan", "params": {"vlan": "622"}}, "output": {"cmd": ["vlan 622"]}}
+{"input": "shut down Ethernet37", "action": {"type": "disable_interface", "params": {"interface": "Ethernet37"}}, "output": {"cmd": ["interface Ethernet37", "shutdown"]}}
+{"input": "assign Ethernet7 to vlan 1342", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet7", "vlan": "1342"}}, "output": {"cmd": ["interface Ethernet7", "switchport access vlan 1342"]}}
+{"input": "send an icmp to 182.223.0.134", "action": {"type": "ping_ip", "params": {"ip": "182.223.0.134"}}, "output": {"cmd": ["ping 182.223.0.134"]}}
+{"input": "set access vlan 1092 on Ethernet36", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet36", "vlan": "1092"}}, "output": {"cmd": ["interface Ethernet36", "switchport access vlan 1092"]}}
+{"input": "create vlan 1982", "action": {"type": "create_vlan", "params": {"vlan": "1982"}}, "output": {"cmd": ["vlan 1982"]}}
+{"input": "add a description 'guest network' to Ethernet36", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet36", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet36", "description guest network"]}}
+{"input": "set description on Ethernet21 to \"monitoring\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet21", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet21", "description monitoring"]}}
+{"input": "set access vlan 1752 on Ethernet27", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet27", "vlan": "1752"}}, "output": {"cmd": ["interface Ethernet27", "switchport access vlan 1752"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "create vlan 822", "action": {"type": "create_vlan", "params": {"vlan": "822"}}, "output": {"cmd": ["vlan 822"]}}
+{"input": "bring up vlan 1492", "action": {"type": "create_vlan", "params": {"vlan": "1492"}}, "output": {"cmd": ["vlan 1492"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "ping 125.35.64.33", "action": {"type": "ping_ip", "params": {"ip": "125.35.64.33"}}, "output": {"cmd": ["ping 125.35.64.33"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please shutdown Ethernet3", "action": {"type": "disable_interface", "params": {"interface": "Ethernet3"}}, "output": {"cmd": ["interface Ethernet3", "shutdown"]}}
+{"input": "set access vlan 1152 on Ethernet25", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet25", "vlan": "1152"}}, "output": {"cmd": ["interface Ethernet25", "switchport access vlan 1152"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please enable interface Ethernet45", "action": {"type": "enable_interface", "params": {"interface": "Ethernet45"}}, "output": {"cmd": ["interface Ethernet45", "no shutdown"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add vlan 692", "action": {"type": "create_vlan", "params": {"vlan": "692"}}, "output": {"cmd": ["vlan 692"]}}
+{"input": "turn on Ethernet21", "action": {"type": "enable_interface", "params": {"interface": "Ethernet21"}}, "output": {"cmd": ["interface Ethernet21", "no shutdown"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "assign Ethernet19 to vlan 1052", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet19", "vlan": "1052"}}, "output": {"cmd": ["interface Ethernet19", "switchport access vlan 1052"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn off Ethernet37", "action": {"type": "disable_interface", "params": {"interface": "Ethernet37"}}, "output": {"cmd": ["interface Ethernet37", "shutdown"]}}
+{"input": "enable Ethernet7", "action": {"type": "enable_interface", "params": {"interface": "Ethernet7"}}, "output": {"cmd": ["interface Ethernet7", "no shutdown"]}}
+{"input": "make Ethernet1 access vlan 552", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet1", "vlan": "552"}}, "output": {"cmd": ["interface Ethernet1", "switchport access vlan 552"]}}
+{"input": "enable Ethernet42", "action": {"type": "enable_interface", "params": {"interface": "Ethernet42"}}, "output": {"cmd": ["interface Ethernet42", "no shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "turn off Ethernet33", "action": {"type": "disable_interface", "params": {"interface": "Ethernet33"}}, "output": {"cmd": ["interface Ethernet33", "shutdown"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add vlan 1642", "action": {"type": "create_vlan", "params": {"vlan": "1642"}}, "output": {"cmd": ["vlan 1642"]}}
+{"input": "please enable interface Ethernet29", "action": {"type": "enable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "no shutdown"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "create vlan 1122", "action": {"type": "create_vlan", "params": {"vlan": "1122"}}, "output": {"cmd": ["vlan 1122"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i need Ethernet36 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet36"}}, "output": {"cmd": ["interface Ethernet36", "no shutdown"]}}
+{"input": "turn on Ethernet16", "action": {"type": "enable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "no shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "disable Ethernet24", "action": {"type": "disable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "shutdown"]}}
+{"input": "assign Ethernet7 to vlan 22", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet7", "vlan": "22"}}, "output": {"cmd": ["interface Ethernet7", "switchport access vlan 22"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "bring up vlan 1282", "action": {"type": "create_vlan", "params": {"vlan": "1282"}}, "output": {"cmd": ["vlan 1282"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "bring up vlan 782", "action": {"type": "create_vlan", "params": {"vlan": "782"}}, "output": {"cmd": ["vlan 782"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "put Ethernet25 in vlan 962", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet25", "vlan": "962"}}, "output": {"cmd": ["interface Ethernet25", "switchport access vlan 962"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "check connectivity to 18.169.160.170", "action": {"type": "ping_ip", "params": {"ip": "18.169.160.170"}}, "output": {"cmd": ["ping 18.169.160.170"]}}
+{"input": "set Ethernet19 description VOIP phone", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet19", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet19", "description VOIP phone"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add vlan 652", "action": {"type": "create_vlan", "params": {"vlan": "652"}}, "output": {"cmd": ["vlan 652"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "make Ethernet22 access vlan 1102", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet22", "vlan": "1102"}}, "output": {"cmd": ["interface Ethernet22", "switchport access vlan 1102"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i need Ethernet9 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet9"}}, "output": {"cmd": ["interface Ethernet9", "no shutdown"]}}
+{"input": "add vlan 1052", "action": {"type": "create_vlan", "params": {"vlan": "1052"}}, "output": {"cmd": ["vlan 1052"]}}
+{"input": "label Ethernet35 as office workstation", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet35", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet35", "description office workstation"]}}
+{"input": "disable Ethernet29", "action": {"type": "disable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "shutdown"]}}
+{"input": "can you no shutdown Ethernet22?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet22"}}, "output": {"cmd": ["interface Ethernet22", "no shutdown"]}}
+{"input": "set description on Ethernet24 to \"office workstation\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet24", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet24", "description office workstation"]}}
+{"input": "label Ethernet35 as camera", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet35", "description": "camera"}}, "output": {"cmd": ["interface Ethernet35", "description camera"]}}
+{"input": "send an icmp to 137.64.140.12", "action": {"type": "ping_ip", "params": {"ip": "137.64.140.12"}}, "output": {"cmd": ["ping 137.64.140.12"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "turn on Ethernet6", "action": {"type": "enable_interface", "params": {"interface": "Ethernet6"}}, "output": {"cmd": ["interface Ethernet6", "no shutdown"]}}
+{"input": "add vlan 1332", "action": {"type": "create_vlan", "params": {"vlan": "1332"}}, "output": {"cmd": ["vlan 1332"]}}
+{"input": "bring up Ethernet24", "action": {"type": "enable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "no shutdown"]}}
+{"input": "add a description 'lab device' to Ethernet29", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet29", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet29", "description lab device"]}}
+{"input": "set Ethernet47 description office workstation", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet47", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet47", "description office workstation"]}}
+{"input": "create vlan 1312", "action": {"type": "create_vlan", "params": {"vlan": "1312"}}, "output": {"cmd": ["vlan 1312"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "make Ethernet22 access vlan 1162", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet22", "vlan": "1162"}}, "output": {"cmd": ["interface Ethernet22", "switchport access vlan 1162"]}}
+{"input": "can you ping 136.216.108.238?", "action": {"type": "ping_ip", "params": {"ip": "136.216.108.238"}}, "output": {"cmd": ["ping 136.216.108.238"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "ping 108.250.54.111", "action": {"type": "ping_ip", "params": {"ip": "108.250.54.111"}}, "output": {"cmd": ["ping 108.250.54.111"]}}
+{"input": "create vlan 1352", "action": {"type": "create_vlan", "params": {"vlan": "1352"}}, "output": {"cmd": ["vlan 1352"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet24 access vlan 272", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet24", "vlan": "272"}}, "output": {"cmd": ["interface Ethernet24", "switchport access vlan 272"]}}
+{"input": "set access vlan 22 on Ethernet41", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet41", "vlan": "22"}}, "output": {"cmd": ["interface Ethernet41", "switchport access vlan 22"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i want a vlan 1732 created", "action": {"type": "create_vlan", "params": {"vlan": "1732"}}, "output": {"cmd": ["vlan 1732"]}}
+{"input": "i want a vlan 1692 created", "action": {"type": "create_vlan", "params": {"vlan": "1692"}}, "output": {"cmd": ["vlan 1692"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "assign Ethernet29 to vlan 922", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet29", "vlan": "922"}}, "output": {"cmd": ["interface Ethernet29", "switchport access vlan 922"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "bring up vlan 1322", "action": {"type": "create_vlan", "params": {"vlan": "1322"}}, "output": {"cmd": ["vlan 1322"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please shutdown Ethernet9", "action": {"type": "disable_interface", "params": {"interface": "Ethernet9"}}, "output": {"cmd": ["interface Ethernet9", "shutdown"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "can you no shutdown Ethernet29?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "no shutdown"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set Ethernet23 description guest network", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet23", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet23", "description guest network"]}}
+{"input": "turn off Ethernet31", "action": {"type": "disable_interface", "params": {"interface": "Ethernet31"}}, "output": {"cmd": ["interface Ethernet31", "shutdown"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn off Ethernet33", "action": {"type": "disable_interface", "params": {"interface": "Ethernet33"}}, "output": {"cmd": ["interface Ethernet33", "shutdown"]}}
+{"input": "check connectivity to 58.58.236.243", "action": {"type": "ping_ip", "params": {"ip": "58.58.236.243"}}, "output": {"cmd": ["ping 58.58.236.243"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i need Ethernet32 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet32"}}, "output": {"cmd": ["interface Ethernet32", "no shutdown"]}}
+{"input": "please shutdown Ethernet34", "action": {"type": "disable_interface", "params": {"interface": "Ethernet34"}}, "output": {"cmd": ["interface Ethernet34", "shutdown"]}}
+{"input": "turn off Ethernet36", "action": {"type": "disable_interface", "params": {"interface": "Ethernet36"}}, "output": {"cmd": ["interface Ethernet36", "shutdown"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set access vlan 1652 on Ethernet37", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet37", "vlan": "1652"}}, "output": {"cmd": ["interface Ethernet37", "switchport access vlan 1652"]}}
+{"input": "i want a vlan 1802 created", "action": {"type": "create_vlan", "params": {"vlan": "1802"}}, "output": {"cmd": ["vlan 1802"]}}
+{"input": "shut down Ethernet4", "action": {"type": "disable_interface", "params": {"interface": "Ethernet4"}}, "output": {"cmd": ["interface Ethernet4", "shutdown"]}}
+{"input": "i want a vlan 452 created", "action": {"type": "create_vlan", "params": {"vlan": "452"}}, "output": {"cmd": ["vlan 452"]}}
+{"input": "make Ethernet16 access vlan 1822", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet16", "vlan": "1822"}}, "output": {"cmd": ["interface Ethernet16", "switchport access vlan 1822"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "bring up vlan 1932", "action": {"type": "create_vlan", "params": {"vlan": "1932"}}, "output": {"cmd": ["vlan 1932"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i need Ethernet10 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "ping 114.152.219.79", "action": {"type": "ping_ip", "params": {"ip": "114.152.219.79"}}, "output": {"cmd": ["ping 114.152.219.79"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set access vlan 472 on Ethernet6", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet6", "vlan": "472"}}, "output": {"cmd": ["interface Ethernet6", "switchport access vlan 472"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "ping 164.130.235.66", "action": {"type": "ping_ip", "params": {"ip": "164.130.235.66"}}, "output": {"cmd": ["ping 164.130.235.66"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "ping 153.34.120.104", "action": {"type": "ping_ip", "params": {"ip": "153.34.120.104"}}, "output": {"cmd": ["ping 153.34.120.104"]}}
+{"input": "bring up Ethernet44", "action": {"type": "enable_interface", "params": {"interface": "Ethernet44"}}, "output": {"cmd": ["interface Ethernet44", "no shutdown"]}}
+{"input": "can you no shutdown Ethernet29?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "no shutdown"]}}
+{"input": "can you ping 223.79.38.121?", "action": {"type": "ping_ip", "params": {"ip": "223.79.38.121"}}, "output": {"cmd": ["ping 223.79.38.121"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add a description 'server connection' to Ethernet33", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet33", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet33", "description server connection"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set access vlan 682 on Ethernet9", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet9", "vlan": "682"}}, "output": {"cmd": ["interface Ethernet9", "switchport access vlan 682"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "bring up Ethernet27", "action": {"type": "enable_interface", "params": {"interface": "Ethernet27"}}, "output": {"cmd": ["interface Ethernet27", "no shutdown"]}}
+{"input": "bring up Ethernet7", "action": {"type": "enable_interface", "params": {"interface": "Ethernet7"}}, "output": {"cmd": ["interface Ethernet7", "no shutdown"]}}
+{"input": "bring up Ethernet47", "action": {"type": "enable_interface", "params": {"interface": "Ethernet47"}}, "output": {"cmd": ["interface Ethernet47", "no shutdown"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "label Ethernet2 as uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet2", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet2", "description uplink to core"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "bring up vlan 1972", "action": {"type": "create_vlan", "params": {"vlan": "1972"}}, "output": {"cmd": ["vlan 1972"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn on Ethernet43", "action": {"type": "enable_interface", "params": {"interface": "Ethernet43"}}, "output": {"cmd": ["interface Ethernet43", "no shutdown"]}}
+{"input": "please make vlan 582", "action": {"type": "create_vlan", "params": {"vlan": "582"}}, "output": {"cmd": ["vlan 582"]}}
+{"input": "set Ethernet46 description server connection", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet46", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet46", "description server connection"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "add a description 'office workstation' to Ethernet48", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet48", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet48", "description office workstation"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add a description 'guest network' to Ethernet34", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet34", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet34", "description guest network"]}}
+{"input": "i need Ethernet30 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet30"}}, "output": {"cmd": ["interface Ethernet30", "no shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "turn off Ethernet12", "action": {"type": "disable_interface", "params": {"interface": "Ethernet12"}}, "output": {"cmd": ["interface Ethernet12", "shutdown"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "put Ethernet16 in vlan 1682", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet16", "vlan": "1682"}}, "output": {"cmd": ["interface Ethernet16", "switchport access vlan 1682"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "disable Ethernet34", "action": {"type": "disable_interface", "params": {"interface": "Ethernet34"}}, "output": {"cmd": ["interface Ethernet34", "shutdown"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "send an icmp to 165.234.73.68", "action": {"type": "ping_ip", "params": {"ip": "165.234.73.68"}}, "output": {"cmd": ["ping 165.234.73.68"]}}
+{"input": "set access vlan 1012 on Ethernet12", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet12", "vlan": "1012"}}, "output": {"cmd": ["interface Ethernet12", "switchport access vlan 1012"]}}
+{"input": "add a description 'guest network' to Ethernet15", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet15", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet15", "description guest network"]}}
+{"input": "shut down Ethernet29", "action": {"type": "disable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "shutdown"]}}
+{"input": "check connectivity to 8.126.102.215", "action": {"type": "ping_ip", "params": {"ip": "8.126.102.215"}}, "output": {"cmd": ["ping 8.126.102.215"]}}
+{"input": "make Ethernet37 access vlan 622", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet37", "vlan": "622"}}, "output": {"cmd": ["interface Ethernet37", "switchport access vlan 622"]}}
+{"input": "set access vlan 372 on Ethernet16", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet16", "vlan": "372"}}, "output": {"cmd": ["interface Ethernet16", "switchport access vlan 372"]}}
+{"input": "create vlan 1192", "action": {"type": "create_vlan", "params": {"vlan": "1192"}}, "output": {"cmd": ["vlan 1192"]}}
+{"input": "check connectivity to 195.18.232.23", "action": {"type": "ping_ip", "params": {"ip": "195.18.232.23"}}, "output": {"cmd": ["ping 195.18.232.23"]}}
+{"input": "bring up vlan 902", "action": {"type": "create_vlan", "params": {"vlan": "902"}}, "output": {"cmd": ["vlan 902"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "can you no shutdown Ethernet31?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet31"}}, "output": {"cmd": ["interface Ethernet31", "no shutdown"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "disable Ethernet44", "action": {"type": "disable_interface", "params": {"interface": "Ethernet44"}}, "output": {"cmd": ["interface Ethernet44", "shutdown"]}}
+{"input": "turn off Ethernet13", "action": {"type": "disable_interface", "params": {"interface": "Ethernet13"}}, "output": {"cmd": ["interface Ethernet13", "shutdown"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set description on Ethernet24 to \"office workstation\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet24", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet24", "description office workstation"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set access vlan 1662 on Ethernet42", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet42", "vlan": "1662"}}, "output": {"cmd": ["interface Ethernet42", "switchport access vlan 1662"]}}
+{"input": "can you ping 113.39.146.61?", "action": {"type": "ping_ip", "params": {"ip": "113.39.146.61"}}, "output": {"cmd": ["ping 113.39.146.61"]}}
+{"input": "add a description 'VOIP phone' to Ethernet6", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet6", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet6", "description VOIP phone"]}}
+{"input": "turn off Ethernet27", "action": {"type": "disable_interface", "params": {"interface": "Ethernet27"}}, "output": {"cmd": ["interface Ethernet27", "shutdown"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "check connectivity to 122.251.229.203", "action": {"type": "ping_ip", "params": {"ip": "122.251.229.203"}}, "output": {"cmd": ["ping 122.251.229.203"]}}
+{"input": "i need Ethernet37 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet37"}}, "output": {"cmd": ["interface Ethernet37", "no shutdown"]}}
+{"input": "i need Ethernet13 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet13"}}, "output": {"cmd": ["interface Ethernet13", "no shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "ping 55.135.67.239", "action": {"type": "ping_ip", "params": {"ip": "55.135.67.239"}}, "output": {"cmd": ["ping 55.135.67.239"]}}
+{"input": "can you ping 202.160.223.156?", "action": {"type": "ping_ip", "params": {"ip": "202.160.223.156"}}, "output": {"cmd": ["ping 202.160.223.156"]}}
+{"input": "make Ethernet36 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet36"}}, "output": {"cmd": ["interface Ethernet36", "shutdown"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set Ethernet24 description uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet24", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet24", "description uplink to core"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "bring up Ethernet47", "action": {"type": "enable_interface", "params": {"interface": "Ethernet47"}}, "output": {"cmd": ["interface Ethernet47", "no shutdown"]}}
+{"input": "check connectivity to 86.193.233.239", "action": {"type": "ping_ip", "params": {"ip": "86.193.233.239"}}, "output": {"cmd": ["ping 86.193.233.239"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "bring up vlan 252", "action": {"type": "create_vlan", "params": {"vlan": "252"}}, "output": {"cmd": ["vlan 252"]}}
+{"input": "please enable interface Ethernet30", "action": {"type": "enable_interface", "params": {"interface": "Ethernet30"}}, "output": {"cmd": ["interface Ethernet30", "no shutdown"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet13 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet13"}}, "output": {"cmd": ["interface Ethernet13", "shutdown"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet27 access vlan 1722", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet27", "vlan": "1722"}}, "output": {"cmd": ["interface Ethernet27", "switchport access vlan 1722"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "ping 108.250.54.111", "action": {"type": "ping_ip", "params": {"ip": "108.250.54.111"}}, "output": {"cmd": ["ping 108.250.54.111"]}}
+{"input": "create vlan 1802", "action": {"type": "create_vlan", "params": {"vlan": "1802"}}, "output": {"cmd": ["vlan 1802"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "assign Ethernet32 to vlan 422", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet32", "vlan": "422"}}, "output": {"cmd": ["interface Ethernet32", "switchport access vlan 422"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "send an icmp to 61.83.90.226", "action": {"type": "ping_ip", "params": {"ip": "61.83.90.226"}}, "output": {"cmd": ["ping 61.83.90.226"]}}
+{"input": "i want a vlan 1362 created", "action": {"type": "create_vlan", "params": {"vlan": "1362"}}, "output": {"cmd": ["vlan 1362"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "bring up Ethernet9", "action": {"type": "enable_interface", "params": {"interface": "Ethernet9"}}, "output": {"cmd": ["interface Ethernet9", "no shutdown"]}}
+{"input": "bring up Ethernet21", "action": {"type": "enable_interface", "params": {"interface": "Ethernet21"}}, "output": {"cmd": ["interface Ethernet21", "no shutdown"]}}
+{"input": "set description on Ethernet14 to \"server connection\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet14", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet14", "description server connection"]}}
+{"input": "set access vlan 1122 on Ethernet47", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet47", "vlan": "1122"}}, "output": {"cmd": ["interface Ethernet47", "switchport access vlan 1122"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet3 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet3"}}, "output": {"cmd": ["interface Ethernet3", "shutdown"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "disable Ethernet40", "action": {"type": "disable_interface", "params": {"interface": "Ethernet40"}}, "output": {"cmd": ["interface Ethernet40", "shutdown"]}}
+{"input": "can you no shutdown Ethernet20?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet20"}}, "output": {"cmd": ["interface Ethernet20", "no shutdown"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set access vlan 1712 on Ethernet17", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet17", "vlan": "1712"}}, "output": {"cmd": ["interface Ethernet17", "switchport access vlan 1712"]}}
+{"input": "create vlan 1572", "action": {"type": "create_vlan", "params": {"vlan": "1572"}}, "output": {"cmd": ["vlan 1572"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "disable Ethernet21", "action": {"type": "disable_interface", "params": {"interface": "Ethernet21"}}, "output": {"cmd": ["interface Ethernet21", "shutdown"]}}
+{"input": "make Ethernet29 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "shutdown"]}}
+{"input": "assign Ethernet27 to vlan 152", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet27", "vlan": "152"}}, "output": {"cmd": ["interface Ethernet27", "switchport access vlan 152"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "put Ethernet37 in vlan 292", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet37", "vlan": "292"}}, "output": {"cmd": ["interface Ethernet37", "switchport access vlan 292"]}}
+{"input": "add vlan 1292", "action": {"type": "create_vlan", "params": {"vlan": "1292"}}, "output": {"cmd": ["vlan 1292"]}}
+{"input": "set description on Ethernet31 to \"uplink to core\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet31", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet31", "description uplink to core"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "can you ping 103.30.84.98?", "action": {"type": "ping_ip", "params": {"ip": "103.30.84.98"}}, "output": {"cmd": ["ping 103.30.84.98"]}}
+{"input": "put Ethernet4 in vlan 1582", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet4", "vlan": "1582"}}, "output": {"cmd": ["interface Ethernet4", "switchport access vlan 1582"]}}
+{"input": "make Ethernet23 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet23"}}, "output": {"cmd": ["interface Ethernet23", "shutdown"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "ping 154.69.35.71", "action": {"type": "ping_ip", "params": {"ip": "154.69.35.71"}}, "output": {"cmd": ["ping 154.69.35.71"]}}
+{"input": "please enable interface Ethernet42", "action": {"type": "enable_interface", "params": {"interface": "Ethernet42"}}, "output": {"cmd": ["interface Ethernet42", "no shutdown"]}}
+{"input": "turn off Ethernet16", "action": {"type": "disable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "bring up vlan 1842", "action": {"type": "create_vlan", "params": {"vlan": "1842"}}, "output": {"cmd": ["vlan 1842"]}}
+{"input": "send an icmp to 170.77.253.247", "action": {"type": "ping_ip", "params": {"ip": "170.77.253.247"}}, "output": {"cmd": ["ping 170.77.253.247"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "send an icmp to 3.25.254.214", "action": {"type": "ping_ip", "params": {"ip": "3.25.254.214"}}, "output": {"cmd": ["ping 3.25.254.214"]}}
+{"input": "make Ethernet24 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "shutdown"]}}
+{"input": "turn off Ethernet41", "action": {"type": "disable_interface", "params": {"interface": "Ethernet41"}}, "output": {"cmd": ["interface Ethernet41", "shutdown"]}}
+{"input": "check connectivity to 202.160.223.156", "action": {"type": "ping_ip", "params": {"ip": "202.160.223.156"}}, "output": {"cmd": ["ping 202.160.223.156"]}}
+{"input": "enable Ethernet35", "action": {"type": "enable_interface", "params": {"interface": "Ethernet35"}}, "output": {"cmd": ["interface Ethernet35", "no shutdown"]}}
+{"input": "bring up vlan 962", "action": {"type": "create_vlan", "params": {"vlan": "962"}}, "output": {"cmd": ["vlan 962"]}}
+{"input": "create vlan 762", "action": {"type": "create_vlan", "params": {"vlan": "762"}}, "output": {"cmd": ["vlan 762"]}}
+{"input": "send an icmp to 61.83.90.226", "action": {"type": "ping_ip", "params": {"ip": "61.83.90.226"}}, "output": {"cmd": ["ping 61.83.90.226"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i want a vlan 1722 created", "action": {"type": "create_vlan", "params": {"vlan": "1722"}}, "output": {"cmd": ["vlan 1722"]}}
+{"input": "create vlan 942", "action": {"type": "create_vlan", "params": {"vlan": "942"}}, "output": {"cmd": ["vlan 942"]}}
+{"input": "enable Ethernet41", "action": {"type": "enable_interface", "params": {"interface": "Ethernet41"}}, "output": {"cmd": ["interface Ethernet41", "no shutdown"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "make Ethernet1 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet1"}}, "output": {"cmd": ["interface Ethernet1", "shutdown"]}}
+{"input": "i need Ethernet29 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "no shutdown"]}}
+{"input": "add a description 'VOIP phone' to Ethernet3", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet3", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet3", "description VOIP phone"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "enable Ethernet43", "action": {"type": "enable_interface", "params": {"interface": "Ethernet43"}}, "output": {"cmd": ["interface Ethernet43", "no shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "can you no shutdown Ethernet36?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet36"}}, "output": {"cmd": ["interface Ethernet36", "no shutdown"]}}
+{"input": "turn off Ethernet41", "action": {"type": "disable_interface", "params": {"interface": "Ethernet41"}}, "output": {"cmd": ["interface Ethernet41", "shutdown"]}}
+{"input": "set Ethernet6 description server connection", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet6", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet6", "description server connection"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i want a vlan 1932 created", "action": {"type": "create_vlan", "params": {"vlan": "1932"}}, "output": {"cmd": ["vlan 1932"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "can you ping 201.242.208.49?", "action": {"type": "ping_ip", "params": {"ip": "201.242.208.49"}}, "output": {"cmd": ["ping 201.242.208.49"]}}
+{"input": "turn off Ethernet11", "action": {"type": "disable_interface", "params": {"interface": "Ethernet11"}}, "output": {"cmd": ["interface Ethernet11", "shutdown"]}}
+{"input": "i want a vlan 502 created", "action": {"type": "create_vlan", "params": {"vlan": "502"}}, "output": {"cmd": ["vlan 502"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "make Ethernet31 access vlan 242", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet31", "vlan": "242"}}, "output": {"cmd": ["interface Ethernet31", "switchport access vlan 242"]}}
+{"input": "label Ethernet45 as server connection", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet45", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet45", "description server connection"]}}
+{"input": "can you ping 69.72.36.16?", "action": {"type": "ping_ip", "params": {"ip": "69.72.36.16"}}, "output": {"cmd": ["ping 69.72.36.16"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add a description 'lab device' to Ethernet32", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet32", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet32", "description lab device"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "check connectivity to 161.81.216.153", "action": {"type": "ping_ip", "params": {"ip": "161.81.216.153"}}, "output": {"cmd": ["ping 161.81.216.153"]}}
+{"input": "set access vlan 1142 on Ethernet5", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet5", "vlan": "1142"}}, "output": {"cmd": ["interface Ethernet5", "switchport access vlan 1142"]}}
+{"input": "can you ping 194.226.218.213?", "action": {"type": "ping_ip", "params": {"ip": "194.226.218.213"}}, "output": {"cmd": ["ping 194.226.218.213"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set description on Ethernet32 to \"camera\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet32", "description": "camera"}}, "output": {"cmd": ["interface Ethernet32", "description camera"]}}
+{"input": "bring up vlan 1932", "action": {"type": "create_vlan", "params": {"vlan": "1932"}}, "output": {"cmd": ["vlan 1932"]}}
+{"input": "can you no shutdown Ethernet42?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet42"}}, "output": {"cmd": ["interface Ethernet42", "no shutdown"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i want a vlan 1852 created", "action": {"type": "create_vlan", "params": {"vlan": "1852"}}, "output": {"cmd": ["vlan 1852"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "turn off Ethernet28", "action": {"type": "disable_interface", "params": {"interface": "Ethernet28"}}, "output": {"cmd": ["interface Ethernet28", "shutdown"]}}
+{"input": "i need Ethernet10 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "assign Ethernet28 to vlan 472", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet28", "vlan": "472"}}, "output": {"cmd": ["interface Ethernet28", "switchport access vlan 472"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "send an icmp to 3.25.254.214", "action": {"type": "ping_ip", "params": {"ip": "3.25.254.214"}}, "output": {"cmd": ["ping 3.25.254.214"]}}
+{"input": "i need Ethernet28 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet28"}}, "output": {"cmd": ["interface Ethernet28", "no shutdown"]}}
+{"input": "assign Ethernet20 to vlan 292", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet20", "vlan": "292"}}, "output": {"cmd": ["interface Ethernet20", "switchport access vlan 292"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "set Ethernet38 description guest network", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet38", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet38", "description guest network"]}}
+{"input": "please make vlan 1472", "action": {"type": "create_vlan", "params": {"vlan": "1472"}}, "output": {"cmd": ["vlan 1472"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please make vlan 822", "action": {"type": "create_vlan", "params": {"vlan": "822"}}, "output": {"cmd": ["vlan 822"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please enable interface Ethernet26", "action": {"type": "enable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "no shutdown"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "shut down Ethernet30", "action": {"type": "disable_interface", "params": {"interface": "Ethernet30"}}, "output": {"cmd": ["interface Ethernet30", "shutdown"]}}
+{"input": "add vlan 1462", "action": {"type": "create_vlan", "params": {"vlan": "1462"}}, "output": {"cmd": ["vlan 1462"]}}
+{"input": "assign Ethernet22 to vlan 1652", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet22", "vlan": "1652"}}, "output": {"cmd": ["interface Ethernet22", "switchport access vlan 1652"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set Ethernet15 description guest network", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet15", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet15", "description guest network"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add a description 'uplink to core' to Ethernet45", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet45", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet45", "description uplink to core"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add a description 'VOIP phone' to Ethernet18", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet18", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet18", "description VOIP phone"]}}
+{"input": "please shutdown Ethernet16", "action": {"type": "disable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "shutdown"]}}
+{"input": "set description on Ethernet6 to \"camera\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet6", "description": "camera"}}, "output": {"cmd": ["interface Ethernet6", "description camera"]}}
+{"input": "send an icmp to 10.64.169.223", "action": {"type": "ping_ip", "params": {"ip": "10.64.169.223"}}, "output": {"cmd": ["ping 10.64.169.223"]}}
+{"input": "set description on Ethernet25 to \"camera\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet25", "description": "camera"}}, "output": {"cmd": ["interface Ethernet25", "description camera"]}}
+{"input": "turn off Ethernet3", "action": {"type": "disable_interface", "params": {"interface": "Ethernet3"}}, "output": {"cmd": ["interface Ethernet3", "shutdown"]}}
+{"input": "bring up Ethernet5", "action": {"type": "enable_interface", "params": {"interface": "Ethernet5"}}, "output": {"cmd": ["interface Ethernet5", "no shutdown"]}}
+{"input": "ping 150.219.204.93", "action": {"type": "ping_ip", "params": {"ip": "150.219.204.93"}}, "output": {"cmd": ["ping 150.219.204.93"]}}
+{"input": "label Ethernet15 as lab device", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet15", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet15", "description lab device"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "check connectivity to 26.51.227.43", "action": {"type": "ping_ip", "params": {"ip": "26.51.227.43"}}, "output": {"cmd": ["ping 26.51.227.43"]}}
+{"input": "i need Ethernet48 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet48"}}, "output": {"cmd": ["interface Ethernet48", "no shutdown"]}}
+{"input": "can you no shutdown Ethernet26?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "no shutdown"]}}
+{"input": "i need Ethernet5 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet5"}}, "output": {"cmd": ["interface Ethernet5", "no shutdown"]}}
+{"input": "turn off Ethernet5", "action": {"type": "disable_interface", "params": {"interface": "Ethernet5"}}, "output": {"cmd": ["interface Ethernet5", "shutdown"]}}
+{"input": "please shutdown Ethernet37", "action": {"type": "disable_interface", "params": {"interface": "Ethernet37"}}, "output": {"cmd": ["interface Ethernet37", "shutdown"]}}
+{"input": "please make vlan 662", "action": {"type": "create_vlan", "params": {"vlan": "662"}}, "output": {"cmd": ["vlan 662"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add a description 'guest network' to Ethernet25", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet25", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet25", "description guest network"]}}
+{"input": "make Ethernet25 access vlan 12", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet25", "vlan": "12"}}, "output": {"cmd": ["interface Ethernet25", "switchport access vlan 12"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "ping 3.25.254.214", "action": {"type": "ping_ip", "params": {"ip": "3.25.254.214"}}, "output": {"cmd": ["ping 3.25.254.214"]}}
+{"input": "disable Ethernet35", "action": {"type": "disable_interface", "params": {"interface": "Ethernet35"}}, "output": {"cmd": ["interface Ethernet35", "shutdown"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "bring up vlan 492", "action": {"type": "create_vlan", "params": {"vlan": "492"}}, "output": {"cmd": ["vlan 492"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "assign Ethernet46 to vlan 1562", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet46", "vlan": "1562"}}, "output": {"cmd": ["interface Ethernet46", "switchport access vlan 1562"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "make Ethernet14 access vlan 522", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet14", "vlan": "522"}}, "output": {"cmd": ["interface Ethernet14", "switchport access vlan 522"]}}
+{"input": "assign Ethernet23 to vlan 1412", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet23", "vlan": "1412"}}, "output": {"cmd": ["interface Ethernet23", "switchport access vlan 1412"]}}
+{"input": "set description on Ethernet22 to \"uplink to core\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet22", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet22", "description uplink to core"]}}
+{"input": "check connectivity to 82.242.195.99", "action": {"type": "ping_ip", "params": {"ip": "82.242.195.99"}}, "output": {"cmd": ["ping 82.242.195.99"]}}
+{"input": "add a description 'camera' to Ethernet33", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet33", "description": "camera"}}, "output": {"cmd": ["interface Ethernet33", "description camera"]}}
+{"input": "create vlan 1032", "action": {"type": "create_vlan", "params": {"vlan": "1032"}}, "output": {"cmd": ["vlan 1032"]}}
+{"input": "send an icmp to 31.213.115.199", "action": {"type": "ping_ip", "params": {"ip": "31.213.115.199"}}, "output": {"cmd": ["ping 31.213.115.199"]}}
+{"input": "add vlan 1892", "action": {"type": "create_vlan", "params": {"vlan": "1892"}}, "output": {"cmd": ["vlan 1892"]}}
+{"input": "turn off Ethernet44", "action": {"type": "disable_interface", "params": {"interface": "Ethernet44"}}, "output": {"cmd": ["interface Ethernet44", "shutdown"]}}
+{"input": "set access vlan 1882 on Ethernet2", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet2", "vlan": "1882"}}, "output": {"cmd": ["interface Ethernet2", "switchport access vlan 1882"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "enable Ethernet18", "action": {"type": "enable_interface", "params": {"interface": "Ethernet18"}}, "output": {"cmd": ["interface Ethernet18", "no shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "make Ethernet32 access vlan 732", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet32", "vlan": "732"}}, "output": {"cmd": ["interface Ethernet32", "switchport access vlan 732"]}}
+{"input": "enable Ethernet8", "action": {"type": "enable_interface", "params": {"interface": "Ethernet8"}}, "output": {"cmd": ["interface Ethernet8", "no shutdown"]}}
+{"input": "set access vlan 1712 on Ethernet5", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet5", "vlan": "1712"}}, "output": {"cmd": ["interface Ethernet5", "switchport access vlan 1712"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "add a description 'office workstation' to Ethernet45", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet45", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet45", "description office workstation"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i need Ethernet24 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "no shutdown"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "enable Ethernet10", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "put Ethernet35 in vlan 92", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet35", "vlan": "92"}}, "output": {"cmd": ["interface Ethernet35", "switchport access vlan 92"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "put Ethernet37 in vlan 622", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet37", "vlan": "622"}}, "output": {"cmd": ["interface Ethernet37", "switchport access vlan 622"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "send an icmp to 105.230.240.75", "action": {"type": "ping_ip", "params": {"ip": "105.230.240.75"}}, "output": {"cmd": ["ping 105.230.240.75"]}}
+{"input": "assign Ethernet41 to vlan 692", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet41", "vlan": "692"}}, "output": {"cmd": ["interface Ethernet41", "switchport access vlan 692"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please make vlan 112", "action": {"type": "create_vlan", "params": {"vlan": "112"}}, "output": {"cmd": ["vlan 112"]}}
+{"input": "add a description 'office workstation' to Ethernet43", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet43", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet43", "description office workstation"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "ping 141.228.81.191", "action": {"type": "ping_ip", "params": {"ip": "141.228.81.191"}}, "output": {"cmd": ["ping 141.228.81.191"]}}
+{"input": "put Ethernet32 in vlan 832", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet32", "vlan": "832"}}, "output": {"cmd": ["interface Ethernet32", "switchport access vlan 832"]}}
+{"input": "add vlan 1852", "action": {"type": "create_vlan", "params": {"vlan": "1852"}}, "output": {"cmd": ["vlan 1852"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "label Ethernet43 as monitoring", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet43", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet43", "description monitoring"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "disable Ethernet24", "action": {"type": "disable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "shutdown"]}}
+{"input": "i need Ethernet29 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "no shutdown"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please shutdown Ethernet24", "action": {"type": "disable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "shutdown"]}}
+{"input": "i want a vlan 1822 created", "action": {"type": "create_vlan", "params": {"vlan": "1822"}}, "output": {"cmd": ["vlan 1822"]}}
+{"input": "bring up Ethernet46", "action": {"type": "enable_interface", "params": {"interface": "Ethernet46"}}, "output": {"cmd": ["interface Ethernet46", "no shutdown"]}}
+{"input": "can you no shutdown Ethernet29?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "no shutdown"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set access vlan 672 on Ethernet29", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet29", "vlan": "672"}}, "output": {"cmd": ["interface Ethernet29", "switchport access vlan 672"]}}
+{"input": "ping 141.169.180.180", "action": {"type": "ping_ip", "params": {"ip": "141.169.180.180"}}, "output": {"cmd": ["ping 141.169.180.180"]}}
+{"input": "turn off Ethernet16", "action": {"type": "disable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "shutdown"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "can you no shutdown Ethernet30?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet30"}}, "output": {"cmd": ["interface Ethernet30", "no shutdown"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "check connectivity to 189.31.160.15", "action": {"type": "ping_ip", "params": {"ip": "189.31.160.15"}}, "output": {"cmd": ["ping 189.31.160.15"]}}
+{"input": "please shutdown Ethernet5", "action": {"type": "disable_interface", "params": {"interface": "Ethernet5"}}, "output": {"cmd": ["interface Ethernet5", "shutdown"]}}
+{"input": "add a description 'uplink to core' to Ethernet10", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet10", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet10", "description uplink to core"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "check connectivity to 141.67.147.113", "action": {"type": "ping_ip", "params": {"ip": "141.67.147.113"}}, "output": {"cmd": ["ping 141.67.147.113"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set description on Ethernet30 to \"office workstation\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet30", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet30", "description office workstation"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add a description 'guest network' to Ethernet40", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet40", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet40", "description guest network"]}}
+{"input": "ping 150.73.118.119", "action": {"type": "ping_ip", "params": {"ip": "150.73.118.119"}}, "output": {"cmd": ["ping 150.73.118.119"]}}
+{"input": "bring up Ethernet23", "action": {"type": "enable_interface", "params": {"interface": "Ethernet23"}}, "output": {"cmd": ["interface Ethernet23", "no shutdown"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "make Ethernet17 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet17"}}, "output": {"cmd": ["interface Ethernet17", "shutdown"]}}
+{"input": "add vlan 1712", "action": {"type": "create_vlan", "params": {"vlan": "1712"}}, "output": {"cmd": ["vlan 1712"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "set access vlan 642 on Ethernet16", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet16", "vlan": "642"}}, "output": {"cmd": ["interface Ethernet16", "switchport access vlan 642"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "label Ethernet1 as camera", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet1", "description": "camera"}}, "output": {"cmd": ["interface Ethernet1", "description camera"]}}
+{"input": "set Ethernet46 description camera", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet46", "description": "camera"}}, "output": {"cmd": ["interface Ethernet46", "description camera"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "can you ping 179.249.79.49?", "action": {"type": "ping_ip", "params": {"ip": "179.249.79.49"}}, "output": {"cmd": ["ping 179.249.79.49"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "ping 10.240.113.52", "action": {"type": "ping_ip", "params": {"ip": "10.240.113.52"}}, "output": {"cmd": ["ping 10.240.113.52"]}}
+{"input": "assign Ethernet19 to vlan 1462", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet19", "vlan": "1462"}}, "output": {"cmd": ["interface Ethernet19", "switchport access vlan 1462"]}}
+{"input": "ping 206.237.162.244", "action": {"type": "ping_ip", "params": {"ip": "206.237.162.244"}}, "output": {"cmd": ["ping 206.237.162.244"]}}
+{"input": "make Ethernet11 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet11"}}, "output": {"cmd": ["interface Ethernet11", "shutdown"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i want a vlan 392 created", "action": {"type": "create_vlan", "params": {"vlan": "392"}}, "output": {"cmd": ["vlan 392"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please make vlan 1492", "action": {"type": "create_vlan", "params": {"vlan": "1492"}}, "output": {"cmd": ["vlan 1492"]}}
+{"input": "can you ping 31.126.20.159?", "action": {"type": "ping_ip", "params": {"ip": "31.126.20.159"}}, "output": {"cmd": ["ping 31.126.20.159"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set Ethernet46 description VOIP phone", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet46", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet46", "description VOIP phone"]}}
+{"input": "check connectivity to 98.138.112.176", "action": {"type": "ping_ip", "params": {"ip": "98.138.112.176"}}, "output": {"cmd": ["ping 98.138.112.176"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "can you ping 31.126.20.159?", "action": {"type": "ping_ip", "params": {"ip": "31.126.20.159"}}, "output": {"cmd": ["ping 31.126.20.159"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "put Ethernet39 in vlan 1532", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet39", "vlan": "1532"}}, "output": {"cmd": ["interface Ethernet39", "switchport access vlan 1532"]}}
+{"input": "make Ethernet27 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet27"}}, "output": {"cmd": ["interface Ethernet27", "shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "add a description 'lab device' to Ethernet24", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet24", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet24", "description lab device"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "shut down Ethernet27", "action": {"type": "disable_interface", "params": {"interface": "Ethernet27"}}, "output": {"cmd": ["interface Ethernet27", "shutdown"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set access vlan 1912 on Ethernet33", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet33", "vlan": "1912"}}, "output": {"cmd": ["interface Ethernet33", "switchport access vlan 1912"]}}
+{"input": "add vlan 1542", "action": {"type": "create_vlan", "params": {"vlan": "1542"}}, "output": {"cmd": ["vlan 1542"]}}
+{"input": "make Ethernet40 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet40"}}, "output": {"cmd": ["interface Ethernet40", "shutdown"]}}
+{"input": "add a description 'monitoring' to Ethernet33", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet33", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet33", "description monitoring"]}}
+{"input": "check connectivity to 120.128.5.175", "action": {"type": "ping_ip", "params": {"ip": "120.128.5.175"}}, "output": {"cmd": ["ping 120.128.5.175"]}}
+{"input": "make Ethernet6 access vlan 292", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet6", "vlan": "292"}}, "output": {"cmd": ["interface Ethernet6", "switchport access vlan 292"]}}
+{"input": "make Ethernet42 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet42"}}, "output": {"cmd": ["interface Ethernet42", "shutdown"]}}
+{"input": "set Ethernet25 description camera", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet25", "description": "camera"}}, "output": {"cmd": ["interface Ethernet25", "description camera"]}}
+{"input": "enable Ethernet20", "action": {"type": "enable_interface", "params": {"interface": "Ethernet20"}}, "output": {"cmd": ["interface Ethernet20", "no shutdown"]}}
+{"input": "please enable interface Ethernet8", "action": {"type": "enable_interface", "params": {"interface": "Ethernet8"}}, "output": {"cmd": ["interface Ethernet8", "no shutdown"]}}
+{"input": "add a description 'server connection' to Ethernet21", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet21", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet21", "description server connection"]}}
+{"input": "set Ethernet21 description guest network", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet21", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet21", "description guest network"]}}
+{"input": "put Ethernet7 in vlan 62", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet7", "vlan": "62"}}, "output": {"cmd": ["interface Ethernet7", "switchport access vlan 62"]}}
+{"input": "can you ping 76.11.202.71?", "action": {"type": "ping_ip", "params": {"ip": "76.11.202.71"}}, "output": {"cmd": ["ping 76.11.202.71"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "disable Ethernet21", "action": {"type": "disable_interface", "params": {"interface": "Ethernet21"}}, "output": {"cmd": ["interface Ethernet21", "shutdown"]}}
+{"input": "can you ping 195.194.142.193?", "action": {"type": "ping_ip", "params": {"ip": "195.194.142.193"}}, "output": {"cmd": ["ping 195.194.142.193"]}}
+{"input": "make Ethernet40 access vlan 1002", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet40", "vlan": "1002"}}, "output": {"cmd": ["interface Ethernet40", "switchport access vlan 1002"]}}
+{"input": "add vlan 1672", "action": {"type": "create_vlan", "params": {"vlan": "1672"}}, "output": {"cmd": ["vlan 1672"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please shutdown Ethernet29", "action": {"type": "disable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "shutdown"]}}
+{"input": "add vlan 1042", "action": {"type": "create_vlan", "params": {"vlan": "1042"}}, "output": {"cmd": ["vlan 1042"]}}
+{"input": "add vlan 412", "action": {"type": "create_vlan", "params": {"vlan": "412"}}, "output": {"cmd": ["vlan 412"]}}
+{"input": "label Ethernet23 as monitoring", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet23", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet23", "description monitoring"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "check connectivity to 56.119.13.144", "action": {"type": "ping_ip", "params": {"ip": "56.119.13.144"}}, "output": {"cmd": ["ping 56.119.13.144"]}}
+{"input": "add a description 'office workstation' to Ethernet38", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet38", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet38", "description office workstation"]}}
+{"input": "enable Ethernet38", "action": {"type": "enable_interface", "params": {"interface": "Ethernet38"}}, "output": {"cmd": ["interface Ethernet38", "no shutdown"]}}
+{"input": "set Ethernet4 description lab device", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet4", "description": "lab device"}}, "output": {"cmd": ["interface Ethernet4", "description lab device"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "i need Ethernet19 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet19"}}, "output": {"cmd": ["interface Ethernet19", "no shutdown"]}}
+{"input": "disable Ethernet16", "action": {"type": "disable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "shutdown"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "set description on Ethernet26 to \"monitoring\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet26", "description": "monitoring"}}, "output": {"cmd": ["interface Ethernet26", "description monitoring"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "can you no shutdown Ethernet10?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add vlan 352", "action": {"type": "create_vlan", "params": {"vlan": "352"}}, "output": {"cmd": ["vlan 352"]}}
+{"input": "set access vlan 342 on Ethernet7", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet7", "vlan": "342"}}, "output": {"cmd": ["interface Ethernet7", "switchport access vlan 342"]}}
+{"input": "check connectivity to 12.125.243.157", "action": {"type": "ping_ip", "params": {"ip": "12.125.243.157"}}, "output": {"cmd": ["ping 12.125.243.157"]}}
+{"input": "make Ethernet34 access vlan 442", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet34", "vlan": "442"}}, "output": {"cmd": ["interface Ethernet34", "switchport access vlan 442"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set description on Ethernet35 to \"guest network\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet35", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet35", "description guest network"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "turn off Ethernet26", "action": {"type": "disable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "shutdown"]}}
+{"input": "label Ethernet14 as camera", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet14", "description": "camera"}}, "output": {"cmd": ["interface Ethernet14", "description camera"]}}
+{"input": "set description on Ethernet20 to \"office workstation\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet20", "description": "office workstation"}}, "output": {"cmd": ["interface Ethernet20", "description office workstation"]}}
+{"input": "ping 13.133.194.84", "action": {"type": "ping_ip", "params": {"ip": "13.133.194.84"}}, "output": {"cmd": ["ping 13.133.194.84"]}}
+{"input": "bring up Ethernet1", "action": {"type": "enable_interface", "params": {"interface": "Ethernet1"}}, "output": {"cmd": ["interface Ethernet1", "no shutdown"]}}
+{"input": "make Ethernet39 access vlan 1372", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet39", "vlan": "1372"}}, "output": {"cmd": ["interface Ethernet39", "switchport access vlan 1372"]}}
+{"input": "shut down Ethernet12", "action": {"type": "disable_interface", "params": {"interface": "Ethernet12"}}, "output": {"cmd": ["interface Ethernet12", "shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "label Ethernet29 as VOIP phone", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet29", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet29", "description VOIP phone"]}}
+{"input": "ping 4.145.240.123", "action": {"type": "ping_ip", "params": {"ip": "4.145.240.123"}}, "output": {"cmd": ["ping 4.145.240.123"]}}
+{"input": "turn off Ethernet48", "action": {"type": "disable_interface", "params": {"interface": "Ethernet48"}}, "output": {"cmd": ["interface Ethernet48", "shutdown"]}}
+{"input": "please enable interface Ethernet24", "action": {"type": "enable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "no shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "check connectivity to 26.225.51.135", "action": {"type": "ping_ip", "params": {"ip": "26.225.51.135"}}, "output": {"cmd": ["ping 26.225.51.135"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "bring up Ethernet26", "action": {"type": "enable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "no shutdown"]}}
+{"input": "make Ethernet38 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet38"}}, "output": {"cmd": ["interface Ethernet38", "shutdown"]}}
+{"input": "add vlan 1402", "action": {"type": "create_vlan", "params": {"vlan": "1402"}}, "output": {"cmd": ["vlan 1402"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "i want a vlan 822 created", "action": {"type": "create_vlan", "params": {"vlan": "822"}}, "output": {"cmd": ["vlan 822"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "shut down Ethernet34", "action": {"type": "disable_interface", "params": {"interface": "Ethernet34"}}, "output": {"cmd": ["interface Ethernet34", "shutdown"]}}
+{"input": "i want a vlan 702 created", "action": {"type": "create_vlan", "params": {"vlan": "702"}}, "output": {"cmd": ["vlan 702"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "set access vlan 1232 on Ethernet2", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet2", "vlan": "1232"}}, "output": {"cmd": ["interface Ethernet2", "switchport access vlan 1232"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "bring up vlan 1762", "action": {"type": "create_vlan", "params": {"vlan": "1762"}}, "output": {"cmd": ["vlan 1762"]}}
+{"input": "disable Ethernet12", "action": {"type": "disable_interface", "params": {"interface": "Ethernet12"}}, "output": {"cmd": ["interface Ethernet12", "shutdown"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "can you no shutdown Ethernet43?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet43"}}, "output": {"cmd": ["interface Ethernet43", "no shutdown"]}}
+{"input": "shut down Ethernet29", "action": {"type": "disable_interface", "params": {"interface": "Ethernet29"}}, "output": {"cmd": ["interface Ethernet29", "shutdown"]}}
+{"input": "add vlan 962", "action": {"type": "create_vlan", "params": {"vlan": "962"}}, "output": {"cmd": ["vlan 962"]}}
+{"input": "turn off Ethernet43", "action": {"type": "disable_interface", "params": {"interface": "Ethernet43"}}, "output": {"cmd": ["interface Ethernet43", "shutdown"]}}
+{"input": "check connectivity to 170.77.253.247", "action": {"type": "ping_ip", "params": {"ip": "170.77.253.247"}}, "output": {"cmd": ["ping 170.77.253.247"]}}
+{"input": "add vlan 812", "action": {"type": "create_vlan", "params": {"vlan": "812"}}, "output": {"cmd": ["vlan 812"]}}
+{"input": "shut down Ethernet25", "action": {"type": "disable_interface", "params": {"interface": "Ethernet25"}}, "output": {"cmd": ["interface Ethernet25", "shutdown"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "set description on Ethernet19 to \"guest network\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet19", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet19", "description guest network"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "make Ethernet44 access vlan 1492", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet44", "vlan": "1492"}}, "output": {"cmd": ["interface Ethernet44", "switchport access vlan 1492"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "create vlan 652", "action": {"type": "create_vlan", "params": {"vlan": "652"}}, "output": {"cmd": ["vlan 652"]}}
+{"input": "please make vlan 1202", "action": {"type": "create_vlan", "params": {"vlan": "1202"}}, "output": {"cmd": ["vlan 1202"]}}
+{"input": "shut down Ethernet44", "action": {"type": "disable_interface", "params": {"interface": "Ethernet44"}}, "output": {"cmd": ["interface Ethernet44", "shutdown"]}}
+{"input": "i want a vlan 942 created", "action": {"type": "create_vlan", "params": {"vlan": "942"}}, "output": {"cmd": ["vlan 942"]}}
+{"input": "make Ethernet10 access vlan 972", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet10", "vlan": "972"}}, "output": {"cmd": ["interface Ethernet10", "switchport access vlan 972"]}}
+{"input": "bring up vlan 802", "action": {"type": "create_vlan", "params": {"vlan": "802"}}, "output": {"cmd": ["vlan 802"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "send an icmp to 200.248.122.71", "action": {"type": "ping_ip", "params": {"ip": "200.248.122.71"}}, "output": {"cmd": ["ping 200.248.122.71"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "check connectivity to 127.166.93.125", "action": {"type": "ping_ip", "params": {"ip": "127.166.93.125"}}, "output": {"cmd": ["ping 127.166.93.125"]}}
+{"input": "bring up Ethernet16", "action": {"type": "enable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "no shutdown"]}}
+{"input": "set access vlan 762 on Ethernet5", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet5", "vlan": "762"}}, "output": {"cmd": ["interface Ethernet5", "switchport access vlan 762"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "send an icmp to 73.80.224.214", "action": {"type": "ping_ip", "params": {"ip": "73.80.224.214"}}, "output": {"cmd": ["ping 73.80.224.214"]}}
+{"input": "turn off Ethernet15", "action": {"type": "disable_interface", "params": {"interface": "Ethernet15"}}, "output": {"cmd": ["interface Ethernet15", "shutdown"]}}
+{"input": "i need Ethernet8 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet8"}}, "output": {"cmd": ["interface Ethernet8", "no shutdown"]}}
+{"input": "set Ethernet6 description uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet6", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet6", "description uplink to core"]}}
+{"input": "set access vlan 1582 on Ethernet22", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet22", "vlan": "1582"}}, "output": {"cmd": ["interface Ethernet22", "switchport access vlan 1582"]}}
+{"input": "can you no shutdown Ethernet38?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet38"}}, "output": {"cmd": ["interface Ethernet38", "no shutdown"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn on Ethernet6", "action": {"type": "enable_interface", "params": {"interface": "Ethernet6"}}, "output": {"cmd": ["interface Ethernet6", "no shutdown"]}}
+{"input": "set access vlan 42 on Ethernet21", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet21", "vlan": "42"}}, "output": {"cmd": ["interface Ethernet21", "switchport access vlan 42"]}}
+{"input": "bring up Ethernet17", "action": {"type": "enable_interface", "params": {"interface": "Ethernet17"}}, "output": {"cmd": ["interface Ethernet17", "no shutdown"]}}
+{"input": "please shutdown Ethernet15", "action": {"type": "disable_interface", "params": {"interface": "Ethernet15"}}, "output": {"cmd": ["interface Ethernet15", "shutdown"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set access vlan 362 on Ethernet32", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet32", "vlan": "362"}}, "output": {"cmd": ["interface Ethernet32", "switchport access vlan 362"]}}
+{"input": "label Ethernet44 as VOIP phone", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet44", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet44", "description VOIP phone"]}}
+{"input": "please enable interface Ethernet41", "action": {"type": "enable_interface", "params": {"interface": "Ethernet41"}}, "output": {"cmd": ["interface Ethernet41", "no shutdown"]}}
+{"input": "check connectivity to 167.35.20.194", "action": {"type": "ping_ip", "params": {"ip": "167.35.20.194"}}, "output": {"cmd": ["ping 167.35.20.194"]}}
+{"input": "add vlan 1122", "action": {"type": "create_vlan", "params": {"vlan": "1122"}}, "output": {"cmd": ["vlan 1122"]}}
+{"input": "disable Ethernet3", "action": {"type": "disable_interface", "params": {"interface": "Ethernet3"}}, "output": {"cmd": ["interface Ethernet3", "shutdown"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "make Ethernet42 administratively down", "action": {"type": "disable_interface", "params": {"interface": "Ethernet42"}}, "output": {"cmd": ["interface Ethernet42", "shutdown"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "turn off Ethernet7", "action": {"type": "disable_interface", "params": {"interface": "Ethernet7"}}, "output": {"cmd": ["interface Ethernet7", "shutdown"]}}
+{"input": "assign Ethernet37 to vlan 1332", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet37", "vlan": "1332"}}, "output": {"cmd": ["interface Ethernet37", "switchport access vlan 1332"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "assign Ethernet3 to vlan 192", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet3", "vlan": "192"}}, "output": {"cmd": ["interface Ethernet3", "switchport access vlan 192"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "reload the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "set Ethernet32 description server connection", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet32", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet32", "description server connection"]}}
+{"input": "put Ethernet46 in vlan 532", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet46", "vlan": "532"}}, "output": {"cmd": ["interface Ethernet46", "switchport access vlan 532"]}}
+{"input": "turn off Ethernet3", "action": {"type": "disable_interface", "params": {"interface": "Ethernet3"}}, "output": {"cmd": ["interface Ethernet3", "shutdown"]}}
+{"input": "turn off Ethernet25", "action": {"type": "disable_interface", "params": {"interface": "Ethernet25"}}, "output": {"cmd": ["interface Ethernet25", "shutdown"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add a description 'server connection' to Ethernet46", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet46", "description": "server connection"}}, "output": {"cmd": ["interface Ethernet46", "description server connection"]}}
+{"input": "can you ping 162.99.196.127?", "action": {"type": "ping_ip", "params": {"ip": "162.99.196.127"}}, "output": {"cmd": ["ping 162.99.196.127"]}}
+{"input": "turn on Ethernet10", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "add a description 'VOIP phone' to Ethernet24", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet24", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet24", "description VOIP phone"]}}
+{"input": "enable Ethernet34", "action": {"type": "enable_interface", "params": {"interface": "Ethernet34"}}, "output": {"cmd": ["interface Ethernet34", "no shutdown"]}}
+{"input": "please make vlan 782", "action": {"type": "create_vlan", "params": {"vlan": "782"}}, "output": {"cmd": ["vlan 782"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "can you no shutdown Ethernet39?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet39"}}, "output": {"cmd": ["interface Ethernet39", "no shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "make Ethernet19 access vlan 82", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet19", "vlan": "82"}}, "output": {"cmd": ["interface Ethernet19", "switchport access vlan 82"]}}
+{"input": "shut down Ethernet13", "action": {"type": "disable_interface", "params": {"interface": "Ethernet13"}}, "output": {"cmd": ["interface Ethernet13", "shutdown"]}}
+{"input": "can you ping 182.223.0.134?", "action": {"type": "ping_ip", "params": {"ip": "182.223.0.134"}}, "output": {"cmd": ["ping 182.223.0.134"]}}
+{"input": "can you ping 9.118.147.181?", "action": {"type": "ping_ip", "params": {"ip": "9.118.147.181"}}, "output": {"cmd": ["ping 9.118.147.181"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "create vlan 1972", "action": {"type": "create_vlan", "params": {"vlan": "1972"}}, "output": {"cmd": ["vlan 1972"]}}
+{"input": "make Ethernet40 access vlan 1342", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet40", "vlan": "1342"}}, "output": {"cmd": ["interface Ethernet40", "switchport access vlan 1342"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set Ethernet41 description uplink to core", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet41", "description": "uplink to core"}}, "output": {"cmd": ["interface Ethernet41", "description uplink to core"]}}
+{"input": "set access vlan 342 on Ethernet32", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet32", "vlan": "342"}}, "output": {"cmd": ["interface Ethernet32", "switchport access vlan 342"]}}
+{"input": "please make vlan 602", "action": {"type": "create_vlan", "params": {"vlan": "602"}}, "output": {"cmd": ["vlan 602"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please enable interface Ethernet6", "action": {"type": "enable_interface", "params": {"interface": "Ethernet6"}}, "output": {"cmd": ["interface Ethernet6", "no shutdown"]}}
+{"input": "ping 61.83.90.226", "action": {"type": "ping_ip", "params": {"ip": "61.83.90.226"}}, "output": {"cmd": ["ping 61.83.90.226"]}}
+{"input": "i want a vlan 1262 created", "action": {"type": "create_vlan", "params": {"vlan": "1262"}}, "output": {"cmd": ["vlan 1262"]}}
+{"input": "please enable interface Ethernet15", "action": {"type": "enable_interface", "params": {"interface": "Ethernet15"}}, "output": {"cmd": ["interface Ethernet15", "no shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "make Ethernet7 access vlan 1112", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet7", "vlan": "1112"}}, "output": {"cmd": ["interface Ethernet7", "switchport access vlan 1112"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "put Ethernet28 in vlan 1652", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet28", "vlan": "1652"}}, "output": {"cmd": ["interface Ethernet28", "switchport access vlan 1652"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "can you ping 60.135.101.109?", "action": {"type": "ping_ip", "params": {"ip": "60.135.101.109"}}, "output": {"cmd": ["ping 60.135.101.109"]}}
+{"input": "disable Ethernet4", "action": {"type": "disable_interface", "params": {"interface": "Ethernet4"}}, "output": {"cmd": ["interface Ethernet4", "shutdown"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "turn off Ethernet4", "action": {"type": "disable_interface", "params": {"interface": "Ethernet4"}}, "output": {"cmd": ["interface Ethernet4", "shutdown"]}}
+{"input": "set access vlan 1912 on Ethernet33", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet33", "vlan": "1912"}}, "output": {"cmd": ["interface Ethernet33", "switchport access vlan 1912"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please shutdown Ethernet36", "action": {"type": "disable_interface", "params": {"interface": "Ethernet36"}}, "output": {"cmd": ["interface Ethernet36", "shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "put Ethernet11 in vlan 1992", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet11", "vlan": "1992"}}, "output": {"cmd": ["interface Ethernet11", "switchport access vlan 1992"]}}
+{"input": "set access vlan 1962 on Ethernet44", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet44", "vlan": "1962"}}, "output": {"cmd": ["interface Ethernet44", "switchport access vlan 1962"]}}
+{"input": "can you no shutdown Ethernet24?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet24"}}, "output": {"cmd": ["interface Ethernet24", "no shutdown"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "add vlan 852", "action": {"type": "create_vlan", "params": {"vlan": "852"}}, "output": {"cmd": ["vlan 852"]}}
+{"input": "please shutdown Ethernet5", "action": {"type": "disable_interface", "params": {"interface": "Ethernet5"}}, "output": {"cmd": ["interface Ethernet5", "shutdown"]}}
+{"input": "i need Ethernet21 up", "action": {"type": "enable_interface", "params": {"interface": "Ethernet21"}}, "output": {"cmd": ["interface Ethernet21", "no shutdown"]}}
+{"input": "put Ethernet5 in vlan 762", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet5", "vlan": "762"}}, "output": {"cmd": ["interface Ethernet5", "switchport access vlan 762"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "ping 62.40.43.188", "action": {"type": "ping_ip", "params": {"ip": "62.40.43.188"}}, "output": {"cmd": ["ping 62.40.43.188"]}}
+{"input": "ping 63.44.142.226", "action": {"type": "ping_ip", "params": {"ip": "63.44.142.226"}}, "output": {"cmd": ["ping 63.44.142.226"]}}
+{"input": "write memory", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set access vlan 632 on Ethernet17", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet17", "vlan": "632"}}, "output": {"cmd": ["interface Ethernet17", "switchport access vlan 632"]}}
+{"input": "i want to reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "show me the ip route table", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "bring up vlan 1432", "action": {"type": "create_vlan", "params": {"vlan": "1432"}}, "output": {"cmd": ["vlan 1432"]}}
+{"input": "can you no shutdown Ethernet16?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet16"}}, "output": {"cmd": ["interface Ethernet16", "no shutdown"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "display ip routes", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "put Ethernet39 in vlan 1962", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet39", "vlan": "1962"}}, "output": {"cmd": ["interface Ethernet39", "switchport access vlan 1962"]}}
+{"input": "what's the status of interfaces", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "reboot the switch", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "put Ethernet2 in vlan 1352", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet2", "vlan": "1352"}}, "output": {"cmd": ["interface Ethernet2", "switchport access vlan 1352"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "please enable interface Ethernet34", "action": {"type": "enable_interface", "params": {"interface": "Ethernet34"}}, "output": {"cmd": ["interface Ethernet34", "no shutdown"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
+{"input": "ping 142.150.185.148", "action": {"type": "ping_ip", "params": {"ip": "142.150.185.148"}}, "output": {"cmd": ["ping 142.150.185.148"]}}
+{"input": "set Ethernet14 description VOIP phone", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet14", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet14", "description VOIP phone"]}}
+{"input": "persist the running-config", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set description on Ethernet2 to \"VOIP phone\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet2", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet2", "description VOIP phone"]}}
+{"input": "make Ethernet39 access vlan 1772", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet39", "vlan": "1772"}}, "output": {"cmd": ["interface Ethernet39", "switchport access vlan 1772"]}}
+{"input": "can you ping 177.124.52.179?", "action": {"type": "ping_ip", "params": {"ip": "177.124.52.179"}}, "output": {"cmd": ["ping 177.124.52.179"]}}
+{"input": "i need the ip route output", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "can you ping 170.77.253.247?", "action": {"type": "ping_ip", "params": {"ip": "170.77.253.247"}}, "output": {"cmd": ["ping 170.77.253.247"]}}
+{"input": "set Ethernet10 description guest network", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet10", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet10", "description guest network"]}}
+{"input": "list all interface statuses", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "please shutdown Ethernet13", "action": {"type": "disable_interface", "params": {"interface": "Ethernet13"}}, "output": {"cmd": ["interface Ethernet13", "shutdown"]}}
+{"input": "set description on Ethernet12 to \"guest network\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet12", "description": "guest network"}}, "output": {"cmd": ["interface Ethernet12", "description guest network"]}}
+{"input": "turn off Ethernet20", "action": {"type": "disable_interface", "params": {"interface": "Ethernet20"}}, "output": {"cmd": ["interface Ethernet20", "shutdown"]}}
+{"input": "show me interface status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "can you no shutdown Ethernet10?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet10"}}, "output": {"cmd": ["interface Ethernet10", "no shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "set description on Ethernet13 to \"VOIP phone\"", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet13", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet13", "description VOIP phone"]}}
+{"input": "check connectivity to 179.249.79.49", "action": {"type": "ping_ip", "params": {"ip": "179.249.79.49"}}, "output": {"cmd": ["ping 179.249.79.49"]}}
+{"input": "add a description 'VOIP phone' to Ethernet34", "action": {"type": "set_interface_description", "params": {"interface": "Ethernet34", "description": "VOIP phone"}}, "output": {"cmd": ["interface Ethernet34", "description VOIP phone"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "send an icmp to 74.80.37.114", "action": {"type": "ping_ip", "params": {"ip": "74.80.37.114"}}, "output": {"cmd": ["ping 74.80.37.114"]}}
+{"input": "assign Ethernet26 to vlan 932", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet26", "vlan": "932"}}, "output": {"cmd": ["interface Ethernet26", "switchport access vlan 932"]}}
+{"input": "save the configuration", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "make Ethernet27 access vlan 762", "action": {"type": "assign_interface_vlan", "params": {"interface": "Ethernet27", "vlan": "762"}}, "output": {"cmd": ["interface Ethernet27", "switchport access vlan 762"]}}
+{"input": "disable Ethernet26", "action": {"type": "disable_interface", "params": {"interface": "Ethernet26"}}, "output": {"cmd": ["interface Ethernet26", "shutdown"]}}
+{"input": "please shutdown Ethernet31", "action": {"type": "disable_interface", "params": {"interface": "Ethernet31"}}, "output": {"cmd": ["interface Ethernet31", "shutdown"]}}
+{"input": "save running to startup", "action": {"type": "save_config", "params": {}}, "output": {"cmd": ["write memory"]}}
+{"input": "can you no shutdown Ethernet17?", "action": {"type": "enable_interface", "params": {"interface": "Ethernet17"}}, "output": {"cmd": ["interface Ethernet17", "no shutdown"]}}
+{"input": "check connectivity to 221.243.230.67", "action": {"type": "ping_ip", "params": {"ip": "221.243.230.67"}}, "output": {"cmd": ["ping 221.243.230.67"]}}
+{"input": "display interfaces status", "action": {"type": "show_interface_status", "params": {}}, "output": {"cmd": ["show interfaces status"]}}
+{"input": "how does the routing table look", "action": {"type": "show_ip_route", "params": {}}, "output": {"cmd": ["show ip route"]}}
+{"input": "please restart the device", "action": {"type": "reload_device", "params": {}}, "output": {"cmd": ["reload"]}}
